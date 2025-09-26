@@ -167,5 +167,9 @@ public class MusicOrganizer
                 found = true;
             }
         }
+        
+         if (found == false) {
+            System.out.println("No tracks by " + artistName + " found");
+        }
     }
 }
